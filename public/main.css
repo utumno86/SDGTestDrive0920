@@ -65,3 +65,18 @@ nav a {
   text-align: center;
   padding-top: 20px;
 }
+
+#contact-us button {
+  background-color: #726a95;
+  border-radius: 5px;
+  height: 50px;
+  border: 1px solid black;
+  box-shadow: 5px 10px 8px midnightblue;
+  padding: 20px;
+  color: #709fb0;
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+}
