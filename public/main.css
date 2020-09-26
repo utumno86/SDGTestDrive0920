@@ -55,3 +55,13 @@ nav a {
   color: #f4ebc1;
   text-align: center;
 }
+
+#contact-us {
+  background-color: #a0c1b8;
+}
+
+#contact-us h2 {
+  color: #f4ebc1;
+  text-align: center;
+  padding-top: 20px;
+}
