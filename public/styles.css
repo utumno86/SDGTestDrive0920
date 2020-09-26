@@ -21,9 +21,9 @@ h2 {
   color: red;
 }
 
-img {
-  height: 200px;
-  width: 200px;
+article img {
+  max-height: 500px;
+  max-width: 500px;
 }
 
 footer{
@@ -33,7 +33,13 @@ footer{
   padding-bottom: 10px;
 }
 
-
+button {
+  background-color: hotpink;
+  border-radius: 5px;
+  height: 50px;
+  border: 1px solid black;
+  box-shadow: 5px 10px 8px midnightblue;
+}
 
 #hero {
   background-image: url(https://images.adsttc.com/media/images/53ab/172e/c07a/8037/b300/00e9/slideshow/00portada.jpg?1403721500);
