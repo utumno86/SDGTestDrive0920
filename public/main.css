@@ -3,6 +3,17 @@ body{
   background-color: #726a95;
 }
 
+nav {
+  background-color: #a0c1b8;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav a {
+  color: #f4ebc1;
+  text-decoration: none;
+}
+
 #hero {
   background-image: url('../pics/cocktail_wizard.jpeg');
   height: 90vh;
