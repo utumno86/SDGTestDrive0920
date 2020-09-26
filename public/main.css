@@ -1,15 +1,15 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #726a95;
 }
 
 #hero {
-  background-image: url('../pics/cocktail_wizard.jpg');
+  background-image: url('../pics/cocktail_wizard.jpeg');
   height: 90vh;
   width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: 250px;
 }
 
 #hero h1 {
