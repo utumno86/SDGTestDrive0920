@@ -58,6 +58,8 @@ nav a {
 
 #contact-us {
   background-color: #a0c1b8;
+  text-align: center;
+  padding: 20px;
 }
 
 #contact-us h2 {
@@ -74,9 +76,4 @@ nav a {
   box-shadow: 5px 10px 8px midnightblue;
   padding: 20px;
   color: #709fb0;
-}
-
-footer{
-  text-align: center;
-  padding: 20px;
 }
