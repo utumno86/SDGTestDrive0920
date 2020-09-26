@@ -53,3 +53,14 @@ footer{
 #about {
   color: midnightblue;
 }
+
+#events {
+  background-color: aquamarine;
+}
+
+#events article {
+  border: 5px;
+  background-color: honeydew;
+  margin: 1rem;
+  border-style: ridge;
+}
