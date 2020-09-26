@@ -50,3 +50,8 @@ nav a {
   max-height: 500px;
   max-width: 500px;
 }
+
+#recipies h2, h3 {
+  color: #f4ebc1;
+  text-align: center;
+}
