@@ -36,3 +36,17 @@ nav a {
   padding: 10px;
   color: #726a95;
 }
+
+#recipies article {
+  border: 5px;
+  background-color:#a0c1b8;
+  margin: 1rem;
+  border-style: solid;
+  color: #709fb0;
+  padding: 10px;
+}
+
+#recipies article img {
+  max-height: 500px;
+  max-width: 500px;
+}
