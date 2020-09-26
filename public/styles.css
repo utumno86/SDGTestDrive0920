@@ -16,3 +16,12 @@ img {
   height: 200px;
   width: 200px;
 }
+
+#hero {
+  background-image: url(https://images.adsttc.com/media/images/53ab/172e/c07a/8037/b300/00e9/slideshow/00portada.jpg?1403721500);
+  height: 90vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
