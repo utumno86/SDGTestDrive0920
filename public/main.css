@@ -87,4 +87,5 @@ nav a {
   box-shadow: 5px 10px 8px midnightblue;
   padding: 20px;
   color: #709fb0;
+  cursor: pointer;
 }
