@@ -1,6 +1,9 @@
 body{
   font-family: 'Fredoka One', cursive;
   background-color: #726a95;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 nav {
@@ -17,7 +20,7 @@ nav a {
 
 #hero {
   background-image: url('../pics/cocktail_wizard.jpeg');
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,7 +47,6 @@ nav a {
   margin: 1rem;
   border-style: solid;
   color: #709fb0;
-  padding: 10px;
 }
 
 #recipies article img {
@@ -55,6 +57,10 @@ nav a {
 #recipies h2, h3 {
   color: #f4ebc1;
   text-align: center;
+}
+
+#recipies section .cards-layout {
+  display: flex;
 }
 
 #contact-us {
