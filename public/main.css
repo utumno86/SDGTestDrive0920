@@ -45,6 +45,9 @@ nav a {
   text-align: center;
   padding: 10px;
   color: #726a95;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #recipies article {
