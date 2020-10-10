@@ -109,6 +109,12 @@ nav a {
   }
 }
 
+@media all and (max-width: 1024px) and (min-width: 541px) {
+  body{
+    font-size: 2em;
+  }
+}
+
 @media all and (max-width: 540px) {
   #recipies article img {
     max-width: 450px;
