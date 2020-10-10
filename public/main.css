@@ -100,7 +100,22 @@ nav a {
   cursor: pointer;
 }
 
-@media all and (max-width: 376px) {
+@media all and (max-width: 1024px) {
+  #recipies section .cards-layout {
+    flex-wrap: wrap;
+  }
+  #recipies article img {
+    max-width: 675px;
+  }
+}
+
+@media all and (max-width: 540px) {
+  #recipies article img {
+    max-width: 450px;
+  }
+}
+
+@media all and (max-width: 415px) {
   #recipies article img {
     max-width: 285px;
   }
@@ -110,8 +125,8 @@ nav a {
   }
 }
 
-@media all and (max-width: 1024px) {
-  #recipies section .cards-layout {
-    flex-wrap: wrap;
+@media all and (max-width: 360px) {
+  #recipies article img {
+    max-width: 190px;
   }
 }
