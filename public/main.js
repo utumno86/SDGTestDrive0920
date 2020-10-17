@@ -1,7 +1,14 @@
-function main() {
-  if (document.querySelector('h1.hello-world')) {
-    document.querySelector('h1.hello-world').textContent = 'Hello, World!'
+const darkModeButton = document.querySelector("#dark-mode-button")
+
+const changeToDarkMode = () => {
+  const bodyClasses = document.querySelector("body").classList
+  if (bodyClasses.contains("dark-mode")) {
+    bodyClasses.remove("dark-mode")
+    darkModeButton.textContent = "Dark Mode!"
+  } else {
+    bodyClasses.add("dark-mode")
+    darkModeButton.textContent = "Light Mode!"
   }
 }
 
-document.addEventListener('DOMContentLoaded', main)
+darkModeButton.addEventListener("click", changeToDarkMode)
