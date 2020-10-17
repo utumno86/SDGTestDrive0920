@@ -2,7 +2,7 @@
   font-size: 16px;
 }
 
-body{
+body, main{
   font-family: 'Fredoka One', cursive;
   background-color: #726a95;
   display: flex;
@@ -67,6 +67,10 @@ nav a {
   justify-content: center;
 }
 
+#recipies {
+  background-color: #726a95;
+}
+
 #recipies article {
   border: 5px;
   background-color:#a0c1b8;
@@ -80,7 +84,7 @@ nav a {
   max-width: 500px;
 }
 
-#recipies h2, h3 {
+h2, h3 {
   color: #f4ebc1;
   text-align: center;
 }
@@ -97,7 +101,7 @@ nav a {
 }
 
 #contact-us h2 {
-  color: #f4ebc1;
+  /* color: #f4ebc1; */
   text-align: center;
   padding-top: 20px;
 }
@@ -154,4 +158,56 @@ nav a {
 .dark-mode #dark-mode-button {
   background-color: #726a95;
   color: #709fb0;
+  box-shadow: 5px 10px 8px pink;
 }
+
+.dark-mode body, main {
+  background-color: #1a1a2e;
+}
+
+.dark-mode nav {
+  background-color: #0f3460;
+}
+
+.dark-mode nav a {
+  color: #e94560;
+}
+
+.dark-mode #hero h1 {
+  color: #1a1a2e;
+}
+
+.dark-mode #about {
+  background-color: #16213e;
+  color: #e94560;
+}
+
+.dark-mode #recipies {
+  background-color: #1a1a2e;
+}
+
+.dark-mode #recipies article {
+  background-color: #16213e;
+  color: #e94560;
+  border-color: #0f3460;
+}
+
+.dark-mode h2 {
+  color: #e94560;
+}
+.dark-mode  h3 {
+  color: #e94560;
+}
+
+.dark-mode #contact-us {
+  background-color: #0f3460;
+}
+
+
+.dark-mode #contact-us button {
+  background-color: #16213e;
+  border: 1px solid black;
+  box-shadow: 5px 10px 8px pink;
+  color: #e94560;
+}
+
