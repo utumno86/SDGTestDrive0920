@@ -19,6 +19,11 @@ nav {
   justify-content: flex-end;
 }
 
+#dark-mode-button {
+  margin-right: auto;
+  margin-left: 10px;
+}
+
 nav a {
   color: #f4ebc1;
   text-decoration: none;
@@ -135,4 +140,34 @@ nav a {
   #recipies article img {
     max-width: 190px;
   }
+}
+
+/* Dark Mode CSS */
+.dark-mode {
+  background-color: #150485;
+  color: #fff;
+}
+
+.dark-mode nav {
+  background-color: #150485;
+}
+
+.dark-mode header {
+  background-color: #590995;
+}
+
+.dark-mode #about {
+  background-color: #590995;
+}
+
+.dark-mode #locations {
+  background-color: #c62a88;
+}
+
+.dark-mode #events article {
+  background-color: #03c4a1;
+}
+
+.dark-mode #hero {
+
 }
