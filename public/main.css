@@ -22,6 +22,14 @@ nav {
 #dark-mode-button {
   margin-right: auto;
   margin-left: 10px;
+  background-color: #1a1a2e;
+  border-radius: 5px;
+  height: 50px;
+  border: 1px solid black;
+  box-shadow: 5px 10px 8px midnightblue;
+  padding: 20px;
+  color: #e94560;
+  cursor: pointer;
 }
 
 nav a {
@@ -143,31 +151,7 @@ nav a {
 }
 
 /* Dark Mode CSS */
-.dark-mode {
-  background-color: #150485;
-  color: #fff;
-}
-
-.dark-mode nav {
-  background-color: #150485;
-}
-
-.dark-mode header {
-  background-color: #590995;
-}
-
-.dark-mode #about {
-  background-color: #590995;
-}
-
-.dark-mode #locations {
-  background-color: #c62a88;
-}
-
-.dark-mode #events article {
-  background-color: #03c4a1;
-}
-
-.dark-mode #hero {
-
+.dark-mode #dark-mode-button {
+  background-color: #726a95;
+  color: #709fb0;
 }
